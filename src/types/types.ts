@@ -1,7 +1,7 @@
 export const navLinks:link[] = [
-    { href: "/", label: "Home" },
-    { href: "/shop", label: "shop" },
-    { href: "/cart", label: "cart" },
+    { href: "/nike", label: "Home" },
+    { href: "/nike/shop", label: "shop" },
+    { href: "/nike/cart", label: "cart" },
     { href: "#about-us", label: "About Us" },
     { href: "#products", label: "Products" },
     { href: "#contact-us", label: "Contact Us" },

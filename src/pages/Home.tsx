@@ -8,6 +8,7 @@ import Reviews from "../components/Reviews";
 import Updates from "../components/Updates";
 import Footer from '../components/Footer';
 function Home():ReactElement{
+    console.log('render')
     return(
         <>
             <Hero />

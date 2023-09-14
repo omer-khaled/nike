@@ -11,7 +11,7 @@ export const Shop = lazy(()=>import('./pages/Shop.tsx'));
 export const Cart = lazy(()=>import('./pages/Cart.tsx'));
 const router = createBrowserRouter([
   {
-    path:'/',
+    path:'/nike/',
     element:<App/>,
     children:[
       {
@@ -19,11 +19,11 @@ const router = createBrowserRouter([
         element:<Suspense fallback={<LoddingRoute/>}><Home/></Suspense>
       },
       {
-        path:'/shop',
+        path:'shop',
         element:<Suspense fallback={<LoddingRoute/>}><Shop/></Suspense>
       },
       {
-        path:'/cart',
+        path:'cart',
         element:<Suspense fallback={<LoddingRoute/>}><Cart/></Suspense>
       }
     ]
