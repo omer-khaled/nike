@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .link{
+         @apply text-slate-300 hover:text-slate-600 mb-1 transition-colors duration-200;
+    }
+}
+@font-face {
+    font-family: 'cutom font';
+    src: url('../Rubik/Rubik-VariableFont_wght.ttf');
+}
+.bg-hero{
+    background-image: url('./assets/images/collection-background.svg');
+}
+.bg-card{
+    background-image: url('./assets/images/thumbnail-background.svg');
+}
+.bg-card.active{
+    border: 2px solid #ff6452;
+}
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cutom font';
+    scroll-behavior: smooth;
+}
+.nav-md{
+    height: 230px;
+    transition: all 0.3s ease-in-out;
+}
+.nav-md-altranative{
+    height: 0;
+    transition: all 0.3s ease-in-out;
+}
+.h-min-100{
+    min-height: 100vh;
+}
