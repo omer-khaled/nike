@@ -47,7 +47,7 @@ function ProductCard({product}:ProductCartType){
                             'click to go to Cart!',
                             'success'
                         ).then(()=>{
-                            navigator('/cart');
+                            navigator('/nike/cart');
                         });
                     }} className="  bg-primary-color text-white p-2 rounded-full flex items-center justify-center">
                         Add To Cart
